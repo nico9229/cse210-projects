@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Homework Project.");
+        WritingAssignment w = new WritingAssignment("Nicolas Ayala", "European History", "The Causes of World War II by Mary Waters");
+        Console.WriteLine(w.GetSummary());
+        Console.WriteLine(w.GetTitle());
     }
 }
